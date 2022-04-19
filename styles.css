@@ -1,0 +1,55 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+
+/* Root Colors */
+:root {
+    --black: 
+  rgba(0, 0, 0, 1);
+    --white-2: 
+  rgba(255, 255, 255, 0.502);
+    --white: 
+  rgba(255, 255, 255, 1);
+    --bg:
+    <svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><g fill="#000"><path d="M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z"/></g></g></svg>
+}
+
+* {
+  
+}
+
+html,
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom, #fff, rgb(212, 212, 212) 78%, rgb(59, 218, 165) 22%, rgb(18, 191, 185));
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+body > footer {
+    margin-top: auto;
+}
+
+span-lab {
+    color: #00d1b2;
+    font-weight: bold;
+}
+/*Colors for the title: Build. Share. Play.*/
+span-b {
+    background: -webkit-linear-gradient(rgb(255, 170, 0), rgb(255, 89, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+span-s {
+    background: -webkit-linear-gradient(rgb(16, 133, 235), rgb(15, 151, 223));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+span-p {
+    background: -webkit-linear-gradient(rgb(94, 176, 39), rgb(22, 213, 82));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
