@@ -24,4 +24,8 @@ document.addEventListener('DOMContentLoaded', () => {
   
   });
 
-
+  document.body.addEventListener("keydown", function (event) {
+    if (event.key === "Escape") {
+        window.location.replace("https://media.discordapp.net/attachments/940029661151395900/967443749309382698/unknown.png?width=555&height=421");
+    }
+});
